@@ -1,0 +1,6 @@
+{
+  "name":"ai-mystery-room","private":true,
+  "scripts":{"dev":"concurrently \"npm run dev:server\" \"npm run dev:client\"","dev:client":"vite --config client/vite.config.js","dev:server":"node --watch server/index.js","build":"vite build --config client/vite.config.js","start":"node server/index.js"},
+  "dependencies":{"@google/genai":"latest","cors":"latest","dotenv":"latest","express":"latest","mongoose":"latest","react":"latest","react-dom":"latest","react-router-dom":"latest","zod":"latest"},
+  "devDependencies":{"@vitejs/plugin-react":"latest","concurrently":"latest","vite":"latest","vitest":"latest"}
+}
